@@ -1,0 +1,44 @@
+# ========= Python 通用 =========
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 虚拟环境
+env/
+.venv/
+venv/
+ENV/
+
+# pip 缓存和打包
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ========= Jupyter Notebook =========
+.ipynb_checkpoints/
+
+# ========= Jupyter Book =========
+_build/
+_mybook/_build/
+*/_build/
+
+# ========= Jupyter Book 的缓存和日志 =========
+**/.doctrees/
+**/.jupyter_cache/
+**/htmlcov/
+**/coverage/
+**/.pytest_cache/
+
+# ========= 编辑器配置 =========
+.vscode/
+.idea/
+
+# ========= 操作系统文件 =========
+.DS_Store
+Thumbs.db
+
+# ========= 日志文件 =========
+*.log
